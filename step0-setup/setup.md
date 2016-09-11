@@ -46,7 +46,7 @@
 ![alt text](img/setup_git_win_005.png "setup line ending conversion")  
 Оставлям настройку по умолчанию (настройка эмулятора терминалного окна), нажимаем Next:  
 ![alt text](img/setup_git_win_006.png "configure terminal emulator")  
-Оставлям настройку по умолчанию (дополнительные настройки кэширования и доступа), нажимаем Install:  
+Оставляeм настройку по умолчанию (дополнительные настройки кэширования и доступа), нажимаем Install:  
 ![alt text](img/setup_git_win_007.png "extra options")  
 Ждем пока истановка завершится. Отмечаем первую опцию (запуск терминала Git Bash), нажимаем: Finish:  
 ![alt text](img/setup_git_win_008.png "complete installation")  
