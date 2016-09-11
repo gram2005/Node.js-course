@@ -27,3 +27,28 @@
 ![alt text](img/setup_nodejs_win_008.png "Run window")  
 В открывшемся окне пишем команду ***node –v*** нажимаем Enter. На экране должна отобразиться версия установленного Node.js:  
 ![alt text](img/setup_nodejs_win_009.png "Command prompt")  
+
+## Установка Git
+
+Переходим по ссылке: https://git-scm.com/downloads  
+Выбираем нужную ОС и формат:  
+![alt text](img/setup_git_win_001.png "Git download page")  
+
+### Установка под Windows
+
+Читамьем условия лицензии, и нажимаем Next:..
+![alt text](img/setup_git_win_002.png "GNU General Public License")  
+Отмечаем все пункты в настройках (создание иконки на рабочем столе, интеграция с проводником, установка программы по умолчанию для файлов с расширением .git, .sh), нажимаем Next:  
+![alt text](img/setup_git_win_003.png "Select components")  
+Оставлям настройку по умолчанию (команда git будет доступна в окне командной строки), нажимаем Next:  
+![alt text](img/setup_git_win_004.png "git PATH setup")  
+Оставлям настройку по умолчанию (настройка символа конца строки при checkout и commit), нажимаем Next:  
+![alt text](img/setup_git_win_005.png "setup line ending conversion")  
+Оставлям настройку по умолчанию (настройка эмулятора терминалного окна), нажимаем Next:  
+![alt text](img/setup_git_win_006.png "configure terminal emulator")  
+Оставлям настройку по умолчанию (дополнительные настройки кэширования и доступа), нажимаем Install:  
+![alt text](img/setup_git_win_007.png "extra options")  
+Ждем пока истановка завершится. Отмечаем первую опцию (запуск терминала Git Bash), нажимаем: Finish:  
+![alt text](img/setup_git_win_008.png "complete installation")  
+Должно запуститься терминальное окно. Набираем команду ***git --version***. Если все прошло успешно, то отобразиться установленная версия Git:  
+![alt text](img/setup_git_win_009.png "check git version in teminal")  
