@@ -42,7 +42,7 @@
 
 ### Установка под Windows
 
-Читаем условия лицензии, и нажимаем Next:..
+Читаем условия лицензии, и нажимаем Next:
 ![alt text](img/setup_git_win_002.png "GNU General Public License")
 Отмечаем все пункты в настройках (создание иконки на рабочем столе, интеграция с проводником, установка программы по умолчанию для файлов с расширением .git, .sh), нажимаем Next:
 ![alt text](img/setup_git_win_003.png "Select components")
@@ -60,14 +60,37 @@
 ![alt text](img/setup_git_win_009.png "check git version in teminal")
 
 
-## Webstorm
+## Установка Webstorm
 
 IDEA Webstorm — IDE для веб-разработки, включает в себя поддержку HTML, CSS, JS (клиентского и серверного NodeJS), GIT.
 
-### Установка
-Перейти по ссылке: http://www.jetbrains.com/webstorm/
+Перейти по ссылке: https://www.jetbrains.com/webstorm/download/
 Выбираем нужную ОС:
-![setup_webstorm_001](img/setup_webstorm_001.png)
+![alt text](img/setup_ws_win_001.png "download WebStorm")
+
+### Установка под Windows
+
+Запускаем установку. Нажимаем Next:
+![alt text](img/setup_ws_win_002.png "welcome to setup wizard")
+Выбираем путь куда буде установлен Webstorm:  
+![alt text](img/setup_ws_win_003.png "choose installation location")
+Выбираем типы файлов, которые по умолчанию будут открываться в Webstorm. Нажимаем Next:
+![alt text](img/setup_ws_win_004.png "installation options")
+Оставляем название папки в стартовом меню по умолчанию.  Нажимаем Install:
+![alt text](img/setup_ws_win_005.png "start menu folder")
+Запускаем Webstorm после установки для настройки. Нажимаем Finish:
+![alt text](img/setup_ws_win_006.png "completing setup wizard")
+При первом запуске программа попросит указать файл с конфигурацией. Если такого нет то отмечаем последний пункт:
+![alt text](img/setup_ws_win_007.png "import configuration")
+Читаем и принимаем политику конфиденциальности:
+![alt text](img/setup_ws_win_008.png "privacy policy")
+Отмечаем что будем использовать пробный 30 дневной период. Нажимаем Evaluate::
+![alt text](img/setup_ws_win_009.png "license activation")
+Принимаем условия лицензии. Нажимаем Accept:
+![alt text](img/setup_ws_win_010.png "license agreement")
+В низу окна нажимаем Configure и выбираем первый пункт меню - Settings:
+![alt text](img/setup_ws_win_011.png "configure settings")
+Переходим к настройке.
 
 ### Настройка
 
@@ -76,7 +99,7 @@ IDEA Webstorm — IDE для веб-разработки, включает в с
    1. Preferencies > Languages & Frameworks > JavaScript
    2. установить значение: **ES 2015+ (ECMAScript 6)**
 
-    ![setup_webstorm_002](img/setup_webstorm_002.png)
+    ![alt text](img/setup_ws_win_011.png "javascript language version")
 
 2. Настройка github
    TODO
