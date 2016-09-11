@@ -1,5 +1,11 @@
 # Установка софта
 
+- Node.js
+- Webstorm
+- GIT
+
+
+
 ## Установка Node.js
 
 Переходим по ссылке: https://nodejs.org/en/download/current/  
@@ -26,29 +32,51 @@
 Проверим или все установилось правильно. Запускаем окно командной строки (Command prompt). Для этого зажав кнопку WIN нажимаем кнопку R. В открывшемся окне пишем ***cmd*** и нажимаем OK.  
 ![alt text](img/setup_nodejs_win_008.png "Run window")  
 В открывшемся окне пишем команду ***node –v*** нажимаем Enter. На экране должна отобразиться версия установленного Node.js:  
-![alt text](img/setup_nodejs_win_009.png "Command prompt")  
+![alt text](img/setup_nodejs_win_009.png "Command prompt")
 
 ## Установка Git
 
-Переходим по ссылке: https://git-scm.com/downloads  
-Выбираем нужную ОС и формат:  
-![alt text](img/setup_git_win_001.png "Git download page")  
+Переходим по ссылке: https://git-scm.com/downloads
+Выбираем нужную ОС и формат:
+![alt text](img/setup_git_win_001.png "Git download page")
 
 ### Установка под Windows
 
 Читаем условия лицензии, и нажимаем Next:..
-![alt text](img/setup_git_win_002.png "GNU General Public License")  
-Отмечаем все пункты в настройках (создание иконки на рабочем столе, интеграция с проводником, установка программы по умолчанию для файлов с расширением .git, .sh), нажимаем Next:  
-![alt text](img/setup_git_win_003.png "Select components")  
-Оставляем  настройку по умолчанию (команда git будет доступна в окне командной строки), нажимаем Next:  
-![alt text](img/setup_git_win_004.png "git PATH setup")  
-Оставляем настройку по умолчанию (настройка символа конца строки при checkout и commit), нажимаем Next:  
-![alt text](img/setup_git_win_005.png "setup line ending conversion")  
-Оставляем настройку по умолчанию (настройка эмулятора терминального  окна), нажимаем Next:  
-![alt text](img/setup_git_win_006.png "configure terminal emulator")  
-Оставляем настройку по умолчанию (дополнительные настройки кэширования и доступа), нажимаем Install:  
-![alt text](img/setup_git_win_007.png "extra options")  
-Ждем пока установка завершится. Отмечаем первую опцию (запуск терминала Git Bash), нажимаем: Finish:  
-![alt text](img/setup_git_win_008.png "complete installation")  
-Должно запуститься терминальное окно. Набираем команду ***git --version***. Если все прошло успешно, то отобразится установленная версия Git:  
-![alt text](img/setup_git_win_009.png "check git version in teminal")  
+![alt text](img/setup_git_win_002.png "GNU General Public License")
+Отмечаем все пункты в настройках (создание иконки на рабочем столе, интеграция с проводником, установка программы по умолчанию для файлов с расширением .git, .sh), нажимаем Next:
+![alt text](img/setup_git_win_003.png "Select components")
+Оставляем  настройку по умолчанию (команда git будет доступна в окне командной строки), нажимаем Next:
+![alt text](img/setup_git_win_004.png "git PATH setup")
+Оставляем настройку по умолчанию (настройка символа конца строки при checkout и commit), нажимаем Next:
+![alt text](img/setup_git_win_005.png "setup line ending conversion")
+Оставляем настройку по умолчанию (настройка эмулятора терминального  окна), нажимаем Next:
+![alt text](img/setup_git_win_006.png "configure terminal emulator")
+Оставляем настройку по умолчанию (дополнительные настройки кэширования и доступа), нажимаем Install:
+![alt text](img/setup_git_win_007.png "extra options")
+Ждем пока установка завершится. Отмечаем первую опцию (запуск терминала Git Bash), нажимаем: Finish:
+![alt text](img/setup_git_win_008.png "complete installation")
+Должно запуститься терминальное окно. Набираем команду ***git --version***. Если все прошло успешно, то отобразится установленная версия Git:
+![alt text](img/setup_git_win_009.png "check git version in teminal")
+
+
+## Webstorm
+
+IDEA Webstorm — IDE для веб-разработки, включает в себя поддержку HTML, CSS, JS (клиентского и серверного NodeJS), GIT.
+
+### Установка
+Перейти по ссылке: http://www.jetbrains.com/webstorm/
+Выбираем нужную ОС:
+![setup_webstorm_001](img/setup_webstorm_001.png)
+
+### Настройка
+
+1. Выбор версии языка javascript:
+
+   1. Preferencies > Languages & Frameworks > JavaScript
+   2. установить значение: **ES 2015+ (ECMAScript 6)**
+
+    ![setup_webstorm_002](img/setup_webstorm_002.png)
+
+2. Настройка github
+   TODO
