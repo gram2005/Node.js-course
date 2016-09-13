@@ -99,7 +99,7 @@ IDEA Webstorm — IDE для веб-разработки, включает в с
    1. Preferencies > Languages & Frameworks > JavaScript
    2. установить значение: **ES 2015+ (ECMAScript 6)**
 
-![javascript language version](img/setup_ws_win_011.png "javascript language version")  
+![javascript language version](img/setup_ws_win_012.png "javascript language version")  
 
 
 2. Настройка github
